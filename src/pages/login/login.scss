@@ -1,0 +1,14 @@
+.login {
+  &-layout {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.login {
+  &-form {
+    min-height: 460px;
+  }
+}
