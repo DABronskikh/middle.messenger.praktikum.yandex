@@ -3,7 +3,7 @@ export const indexTemplate = `
     <h1>Index page</h1>
     <ul>
         {{#each links}}
-            <li><a href="{{to}}">{{text}}</a></li>
+            <li>{{{this}}}</li>
         {{/each}}
     </ul>
 </main>
