@@ -13,8 +13,8 @@ const routes = new Map([
     ['/registration', RegistrationPage()],
     ['/profile', ProfilePage()],
     ['/chat', ChatPage()],
-    ['/500', ErrorPage(500)],
-    ['/*', ErrorPage(404)],
+    ['/500', ErrorPage({code: 500, description:'Мы уже фиксим'})],
+    ['/*', ErrorPage({code: 404, description:'Не туда попали'})],
 ]);
 
 document.addEventListener('DOMContentLoaded', () => {
