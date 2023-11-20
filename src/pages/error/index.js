@@ -9,7 +9,7 @@ export const ErrorPage = (props) => {
       to: '/', 
       class: 'link-sm link-primary',
     });
-    
+
     const pageProps = {
       ...props,
       link,
