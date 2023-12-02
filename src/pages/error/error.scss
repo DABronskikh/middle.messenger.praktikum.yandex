@@ -1,0 +1,29 @@
+.error {
+  &-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  &-card {
+    text-align: center;
+    padding: 20px;
+
+    &__code {
+      color: #1E1E1E;
+      font-size: 40px;
+    }
+
+    &__description {
+      color: #1E1E1E;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    &__action { 
+      margin-top: 70px;
+    }
+  }
+}

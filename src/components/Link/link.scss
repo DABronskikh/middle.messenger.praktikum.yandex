@@ -1,0 +1,15 @@
+.link{
+  font-size: 16px;
+
+  &-sm {
+    font-size: 13px;
+  }
+  
+  &-danger {
+    color: #FF0000;
+  }
+  
+  &-primary {
+    color: #3369F3;
+  }
+}
